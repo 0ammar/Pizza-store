@@ -104,9 +104,10 @@ section {
 }
 .header .flex .icons {
   font-size: 10px;
+  max-width: 100%;
 }
 .header .flex .icons div {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--light-color);
   cursor: pointer;
   margin-left: 1.7rem;
