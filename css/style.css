@@ -375,6 +375,11 @@ section {
 .home-bg .home .slide-container .slide.active {
   display: flex;
 }
+@media (max-width:991px) {
+  .home-bg .home .slide-container .slide.active {
+    flex-direction: column;
+  }
+}
 .home-bg .home .slide-container .slide .image {
   flex: 1 1 40rem;
   animation: fadeRight 0.4s linear;
